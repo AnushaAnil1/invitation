@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'cinzel';
+  src: url('/assets/fonts/CinzelDecorative-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cinzel';
+  src: url('/assets/fonts/CinzelDecorative-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cinzel';
+  src: url('/assets/fonts/CinzelDecorative-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'satisfy';
+  src: url('/assets/fonts/Satisfy-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
